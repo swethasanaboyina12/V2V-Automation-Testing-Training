@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Fest Registration Form</title>
+        <style>
+            body{
+                background-color: aquamarine;
+                
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+        div{
+            padding: 70px;
+            border : 2px solid black;
+        }
+        </style>
+    </head>
+    <body>
+        <h2>Fest Registration Form</h2>
+        <form>
+            Name : <input type = "text" name = name required><br><br>
+            <label for = "email">Email:<span style = "color : red">*</span></label>
+            <input type = "text" id = "email" required><br><br>
+            Password : <input type = "password"><br><br>
+            Gender : <input type = "radio" name = gender>Male
+                    <input type = "radio" name = gender>Female<br><br>
+            Date of Birth : <input type = "date" name = dob><br><br>
+            Phone number : <input type = "text" name = phonenumber><br><br>
+            Institute name : <input type = "text" name = collegename><br><br>
+            year : 
+            <select>
+                <option></option>
+                <option>1<sup>st</sup></option>
+                <option>2<sup>nd</sup></option>
+                <option>3<sup>rd</sup></option>
+                <option>4<sup>th</sup></option>
+            </select><br><br>
+            Events : <input type = "checkbox">Dance
+                <input type = "checkbox">Singing
+                <input type = "checkbox">Drama
+                <input type = "checkbox">Modelling<br><br>
+                Adress : <textarea cols="50" rows="5"></textarea><br><br>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "clear">
+        </form>
+        <a href = "https://www.w3schools.com/">Visit our Website</a>
+    </body>
+</html>
